@@ -14,6 +14,9 @@ New features:
 
 Bug fixes:
 
+- Make recaptcha validator work with recaptcha field inside fieldset.
+  [melta]
+
 - Register the recaptcha validator more specifically, so that it overrides the default easyform validator.
   Fixes an issue where plone.formwidget.recaptcha had no effect when used.
   [thet]
